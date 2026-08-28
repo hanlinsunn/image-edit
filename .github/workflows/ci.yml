@@ -1,0 +1,44 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -e ".[dev]"
+      - run: ruff check .
+      - run: mypy app
+      - run: pytest
+
+  photo-curation:
+    runs-on: macos-14
+    defaults:
+      run:
+        working-directory: ios/Packages/PhotoCuration
+    steps:
+      - uses: actions/checkout@v4
+      - run: swift test
+
+  ios-app:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build app for simulator
+        working-directory: ios
+        run: |
+          xcodebuild build \
+            -project AutoImageEdit.xcodeproj \
+            -scheme AutoImageEdit \
+            -destination 'generic/platform=iOS Simulator' \
+            CODE_SIGNING_ALLOWED=NO
