@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1600"
+   LastUpgradeVersion = "1540"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A10000000000000000000007"
+               BlueprintIdentifier = "A10000000000000000000128"
                BuildableName = "AutoImageEdit.app"
                BlueprintName = "AutoImageEdit"
                ReferencedContainer = "container:AutoImageEdit.xcodeproj">
@@ -44,7 +44,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A10000000000000000000007"
+            BlueprintIdentifier = "A10000000000000000000128"
             BuildableName = "AutoImageEdit.app"
             BlueprintName = "AutoImageEdit"
             ReferencedContainer = "container:AutoImageEdit.xcodeproj">
@@ -61,7 +61,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A10000000000000000000007"
+            BlueprintIdentifier = "A10000000000000000000128"
             BuildableName = "AutoImageEdit.app"
             BlueprintName = "AutoImageEdit"
             ReferencedContainer = "container:AutoImageEdit.xcodeproj">

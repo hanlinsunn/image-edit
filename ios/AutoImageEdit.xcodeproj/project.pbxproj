@@ -3,126 +3,182 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A10000000000000000000009 /* PhotoCuration in Frameworks */ = {isa = PBXBuildFile; productRef = A10000000000000000000008 /* PhotoCuration */; };
+		A10000000000000000000101 /* AutoImageEditApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000100 /* AutoImageEditApp.swift */; };
+		A10000000000000000000103 /* CandidateFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000102 /* CandidateFeedView.swift */; };
+		A10000000000000000000105 /* CandidateFeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000104 /* CandidateFeedViewModel.swift */; };
+		A10000000000000000000107 /* PermissionPrimingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000106 /* PermissionPrimingView.swift */; };
+		A10000000000000000000109 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000108 /* ResultsView.swift */; };
+		A1000000000000000000010B /* ResultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000010A /* ResultsViewModel.swift */; };
+		A1000000000000000000010D /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000010C /* SignInView.swift */; };
+		A1000000000000000000010F /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000010E /* APIClient.swift */; };
+		A10000000000000000000111 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000110 /* AppConfiguration.swift */; };
+		A10000000000000000000113 /* CredentialStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000112 /* CredentialStore.swift */; };
+		A10000000000000000000115 /* PerceptualHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000114 /* PerceptualHash.swift */; };
+		A10000000000000000000117 /* PhotoLibraryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000116 /* PhotoLibraryService.swift */; };
+		A10000000000000000000119 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000118 /* SessionStore.swift */; };
+		A1000000000000000000011B /* VisionAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000011A /* VisionAnalyzer.swift */; };
+		A1000000000000000000012C /* PhotoCuration in Frameworks */ = {isa = PBXBuildFile; productRef = A1000000000000000000012B /* PhotoCuration */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A10000000000000000000000 /* AutoImageEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoImageEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A10000000000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A10000000000000000000002 /* AutoImageEdit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutoImageEdit.entitlements; sourceTree = "<group>"; };
+		A10000000000000000000100 /* AutoImageEditApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoImageEditApp.swift; sourceTree = "<group>"; };
+		A10000000000000000000102 /* CandidateFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateFeedView.swift; sourceTree = "<group>"; };
+		A10000000000000000000104 /* CandidateFeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateFeedViewModel.swift; sourceTree = "<group>"; };
+		A10000000000000000000106 /* PermissionPrimingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionPrimingView.swift; sourceTree = "<group>"; };
+		A10000000000000000000108 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		A1000000000000000000010A /* ResultsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewModel.swift; sourceTree = "<group>"; };
+		A1000000000000000000010C /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		A1000000000000000000010E /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		A10000000000000000000110 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		A10000000000000000000112 /* CredentialStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialStore.swift; sourceTree = "<group>"; };
+		A10000000000000000000114 /* PerceptualHash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerceptualHash.swift; sourceTree = "<group>"; };
+		A10000000000000000000116 /* PhotoLibraryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryService.swift; sourceTree = "<group>"; };
+		A10000000000000000000118 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		A1000000000000000000011A /* VisionAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionAnalyzer.swift; sourceTree = "<group>"; };
+		A10000000000000000000122 /* AutoImageEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoImageEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000000000000000000124 /* AutoImageEdit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutoImageEdit.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		A10000000000000000000003 /* AutoImageEdit */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = AutoImageEdit; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		A10000000000000000000004 /* Frameworks */ = {
+		A10000000000000000000126 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10000000000000000000009 /* PhotoCuration in Frameworks */,
+				A1000000000000000000012C /* PhotoCuration in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A10000000000000000000005 = {
+		A10000000000000000000120 /* MainGroup */ = {
 			isa = PBXGroup;
 			children = (
-				A10000000000000000000003 /* AutoImageEdit */,
-				A1000000000000000000000A /* Config */,
-				A10000000000000000000006 /* Products */,
+				A1000000000000000000011E /* AutoImageEdit */,
+				A1000000000000000000011F /* Config */,
+				A10000000000000000000121 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A10000000000000000000006 /* Products */ = {
+		A1000000000000000000011E /* AutoImageEdit */ = {
 			isa = PBXGroup;
 			children = (
-				A10000000000000000000000 /* AutoImageEdit.app */,
+				A1000000000000000000011C /* Features */,
+				A1000000000000000000011D /* Services */,
+				A10000000000000000000100 /* AutoImageEditApp.swift */,
 			);
-			name = Products;
+			path = AutoImageEdit;
 			sourceTree = "<group>";
 		};
-		A1000000000000000000000A /* Config */ = {
+		A1000000000000000000011C /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				A10000000000000000000001 /* Info.plist */,
-				A10000000000000000000002 /* AutoImageEdit.entitlements */,
+				A10000000000000000000102 /* CandidateFeedView.swift */,
+				A10000000000000000000104 /* CandidateFeedViewModel.swift */,
+				A10000000000000000000106 /* PermissionPrimingView.swift */,
+				A10000000000000000000108 /* ResultsView.swift */,
+				A1000000000000000000010A /* ResultsViewModel.swift */,
+				A1000000000000000000010C /* SignInView.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A1000000000000000000011D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A1000000000000000000010E /* APIClient.swift */,
+				A10000000000000000000110 /* AppConfiguration.swift */,
+				A10000000000000000000112 /* CredentialStore.swift */,
+				A10000000000000000000114 /* PerceptualHash.swift */,
+				A10000000000000000000116 /* PhotoLibraryService.swift */,
+				A10000000000000000000118 /* SessionStore.swift */,
+				A1000000000000000000011A /* VisionAnalyzer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A1000000000000000000011F /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000123 /* Info.plist */,
+				A10000000000000000000124 /* AutoImageEdit.entitlements */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000122 /* AutoImageEdit.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A10000000000000000000007 /* AutoImageEdit */ = {
+		A10000000000000000000128 /* AutoImageEdit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1000000000000000000000D /* Build configuration list for PBXNativeTarget "AutoImageEdit" */;
+			buildConfigurationList = A1000000000000000000012D /* Build configuration list for PBXNativeTarget "AutoImageEdit" */;
 			buildPhases = (
-				A1000000000000000000000B /* Sources */,
-				A10000000000000000000004 /* Frameworks */,
-				A1000000000000000000000C /* Resources */,
+				A10000000000000000000125 /* Sources */,
+				A10000000000000000000126 /* Frameworks */,
+				A10000000000000000000127 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				A10000000000000000000003 /* AutoImageEdit */,
-			);
 			name = AutoImageEdit;
 			packageProductDependencies = (
-				A10000000000000000000008 /* PhotoCuration */,
+				A1000000000000000000012B /* PhotoCuration */,
 			);
 			productName = AutoImageEdit;
-			productReference = A10000000000000000000000 /* AutoImageEdit.app */;
+			productReference = A10000000000000000000122 /* AutoImageEdit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A1000000000000000000000E /* Project object */ = {
+		A10000000000000000000129 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1600;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					A10000000000000000000007 = {
-						CreatedOnToolsVersion = 16.0;
+					A10000000000000000000128 = {
+						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = A1000000000000000000000F /* Build configuration list for PBXProject "AutoImageEdit" */;
+			buildConfigurationList = A1000000000000000000012E /* Build configuration list for PBXProject "AutoImageEdit" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = A10000000000000000000005;
-			minimizedProjectReferenceProxies = 1;
+			mainGroup = A10000000000000000000120;
 			packageReferences = (
-				A10000000000000000000010 /* XCLocalSwiftPackageReference "Packages/PhotoCuration" */,
+				A1000000000000000000012A /* XCLocalSwiftPackageReference "Packages/PhotoCuration" */,
 			);
-			preferredProjectObjectVersion = 77;
-			productRefGroup = A10000000000000000000006 /* Products */;
+			productRefGroup = A10000000000000000000121 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A10000000000000000000007 /* AutoImageEdit */,
+				A10000000000000000000128 /* AutoImageEdit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A1000000000000000000000C /* Resources */ = {
+		A10000000000000000000127 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -132,73 +188,80 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A1000000000000000000000B /* Sources */ = {
+		A10000000000000000000125 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10000000000000000000101 /* AutoImageEditApp.swift in Sources */,
+				A10000000000000000000103 /* CandidateFeedView.swift in Sources */,
+				A10000000000000000000105 /* CandidateFeedViewModel.swift in Sources */,
+				A10000000000000000000107 /* PermissionPrimingView.swift in Sources */,
+				A10000000000000000000109 /* ResultsView.swift in Sources */,
+				A1000000000000000000010B /* ResultsViewModel.swift in Sources */,
+				A1000000000000000000010D /* SignInView.swift in Sources */,
+				A1000000000000000000010F /* APIClient.swift in Sources */,
+				A10000000000000000000111 /* AppConfiguration.swift in Sources */,
+				A10000000000000000000113 /* CredentialStore.swift in Sources */,
+				A10000000000000000000115 /* PerceptualHash.swift in Sources */,
+				A10000000000000000000117 /* PhotoLibraryService.swift in Sources */,
+				A10000000000000000000119 /* SessionStore.swift in Sources */,
+				A1000000000000000000011B /* VisionAnalyzer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A10000000000000000000011 /* Debug */ = {
+		A1000000000000000000012F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		A10000000000000000000012 /* Release */ = {
+		A10000000000000000000130 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_VERSION = 5.0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		A10000000000000000000013 /* Debug */ = {
+		A10000000000000000000131 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BACKEND_BASE_URL = "http://localhost:8000";
 				CODE_SIGN_ENTITLEMENTS = Config/AutoImageEdit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Config/Info.plist;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -206,24 +269,20 @@
 				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hanlinsunn.imageedit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		A10000000000000000000014 /* Release */ = {
+		A10000000000000000000132 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BACKEND_BASE_URL = "http://localhost:8000";
 				CODE_SIGN_ENTITLEMENTS = Config/AutoImageEdit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Config/Info.plist;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -231,7 +290,6 @@
 				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hanlinsunn.imageedit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -239,20 +297,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1000000000000000000000D /* Build configuration list for PBXNativeTarget "AutoImageEdit" */ = {
+		A1000000000000000000012D /* Build configuration list for PBXNativeTarget "AutoImageEdit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A10000000000000000000013 /* Debug */,
-				A10000000000000000000014 /* Release */,
+				A10000000000000000000131 /* Debug */,
+				A10000000000000000000132 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1000000000000000000000F /* Build configuration list for PBXProject "AutoImageEdit" */ = {
+		A1000000000000000000012E /* Build configuration list for PBXProject "AutoImageEdit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A10000000000000000000011 /* Debug */,
-				A10000000000000000000012 /* Release */,
+				A1000000000000000000012F /* Debug */,
+				A10000000000000000000130 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -260,18 +318,18 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		A10000000000000000000010 /* XCLocalSwiftPackageReference "Packages/PhotoCuration" */ = {
+		A1000000000000000000012A /* XCLocalSwiftPackageReference "Packages/PhotoCuration" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Packages/PhotoCuration;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A10000000000000000000008 /* PhotoCuration */ = {
+		A1000000000000000000012B /* PhotoCuration */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = PhotoCuration;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = A1000000000000000000000E /* Project object */;
+	rootObject = A10000000000000000000129 /* Project object */;
 }
