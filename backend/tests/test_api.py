@@ -96,7 +96,8 @@ def test_results_are_listed_and_downloadable(client, auth_headers):
 
     content = client.get(listed[0]["download_url"], headers=auth_headers)
     assert content.status_code == 200
-    assert content.content.startswith(b"edited:")
+    assert content.headers["content-type"] == "image/png"
+    assert content.content.startswith(b"\x89PNG\r\n\x1a\n")
 
 
 def test_results_are_private_to_their_owner(client, auth_headers, other_auth_headers):
