@@ -32,6 +32,23 @@ Checks:
 ruff check . && mypy app && pytest
 ```
 
+### Trying the pipeline without the app
+
+`scripts/demo_flow.py` performs the same sequence as the iOS client — sign in, ingest,
+prompt matching and editing, results listing, downloads, and one ad-hoc template edit —
+and writes the edited images to `demo-output/`:
+
+```bash
+APP_AUTH_ALLOW_INSECURE_TOKENS=true uvicorn app.main:app --port 8000   # one shell
+python scripts/demo_flow.py ~/Pictures/a.jpg ~/Pictures/b.jpg          # another
+```
+
+The insecure-token flag lets the script mint its own Apple-shaped identity token instead
+of signing in with Apple; it also prints that token, so you can paste it into
+**Authorize** at http://localhost:8000/docs and drive the endpoints by hand. With the
+fake editor each edit is a deterministic colour swatch; point it at `openai` to get real
+`gpt-image-1` output.
+
 ### API
 
 | Method | Path | Purpose |
